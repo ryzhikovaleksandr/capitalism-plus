@@ -6,4 +6,4 @@
     price)
 
 (defun create-product (name cost price)
-    (make-product :name name :cost cost :proce price))
+    (make-product :name name :cost cost :price price))
