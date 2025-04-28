@@ -1,3 +1,10 @@
+(defpackage :capitalism-plus/product
+    (:use :cl)
+    (:export :create-product
+             :product-name
+             :product-cost
+             :product-price))
+
 (in-package :capitalism-plus/product)
 
 (defstruct product

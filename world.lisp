@@ -1,6 +1,12 @@
+(defpackage :capitalism-plus/world
+    (:use :cl)
+    (:export :create-city
+             :city-name
+             :city-population))
+
 (in-package :capitalism-plus/world)
 
-(defstruct
+(defstruct city
     name
     population)
 
