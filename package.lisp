@@ -15,7 +15,7 @@
 (defpackage :capitalism-plus/product
     (:use :cl)
     (:import-from :capitalism-plus)
-    (:export :crete-product :product-name :product-cost :product-price))
+    (:export :create-product :product-name :product-cost :product-price))
 
 (defpackage :capitalism-plus/market
     (:use :cl)
