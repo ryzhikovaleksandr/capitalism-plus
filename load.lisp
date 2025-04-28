@@ -1,0 +1,6 @@
+(load "package.lisp")
+(load "world.lisp")
+(load "product.lisp")
+(load "company.lisp")
+(load "market.lisp")
+(load "main.lisp")
